@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1AC43E2347F42D00E15956 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC43D2347F42D00E15956 /* SettingsViewController.swift */; };
+		4E1AC4402347F44900E15956 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC43F2347F44900E15956 /* JournalViewController.swift */; };
+		4E1AC4422348677D00E15956 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1AC4412348677D00E15956 /* Protocols.swift */; };
 		4EC4DD462346628F00E2F3A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD452346628F00E2F3A5 /* AppDelegate.swift */; };
 		4EC4DD482346628F00E2F3A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD472346628F00E2F3A5 /* SceneDelegate.swift */; };
-		4EC4DD4A2346628F00E2F3A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD492346628F00E2F3A5 /* ViewController.swift */; };
+		4EC4DD4A2346628F00E2F3A5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD492346628F00E2F3A5 /* mainViewController.swift */; };
 		4EC4DD4D2346628F00E2F3A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC4DD4B2346628F00E2F3A5 /* Main.storyboard */; };
 		4EC4DD4F2346629000E2F3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC4DD4E2346629000E2F3A5 /* Assets.xcassets */; };
 		4EC4DD522346629000E2F3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC4DD502346629000E2F3A5 /* LaunchScreen.storyboard */; };
 		4EC4DD5D2346629000E2F3A5 /* PhotoJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD5C2346629000E2F3A5 /* PhotoJournalTests.swift */; };
+		4ECBCD31234AA21F00947CCC /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */; };
+		4EF355A6234A80B800300E3C /* mainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E1AC43D2347F42D00E15956 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4E1AC43F2347F44900E15956 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		4E1AC4412348677D00E15956 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		4EC4DD422346628F00E2F3A5 /* PhotoJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC4DD452346628F00E2F3A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC4DD472346628F00E2F3A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EC4DD492346628F00E2F3A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EC4DD492346628F00E2F3A5 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		4EC4DD4C2346628F00E2F3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EC4DD4E2346629000E2F3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC4DD512346629000E2F3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		4EC4DD582346629000E2F3A5 /* PhotoJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC4DD5C2346629000E2F3A5 /* PhotoJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoJournalTests.swift; sourceTree = "<group>"; };
 		4EC4DD5E2346629000E2F3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
+		4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1AC43C2347F40900E15956 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EC4DD492346628F00E2F3A5 /* mainViewController.swift */,
+				4E1AC43D2347F42D00E15956 /* SettingsViewController.swift */,
+				4E1AC43F2347F44900E15956 /* JournalViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4EC4DD392346628F00E2F3A5 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +99,13 @@
 		4EC4DD442346628F00E2F3A5 /* PhotoJournal */ = {
 			isa = PBXGroup;
 			children = (
+				4EC4DD4B2346628F00E2F3A5 /* Main.storyboard */,
+				4E1AC4412348677D00E15956 /* Protocols.swift */,
+				4E1AC43C2347F40900E15956 /* Controllers */,
+				4ECBCD32234AA22C00947CCC /* Helpers */,
+				4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */,
 				4EC4DD452346628F00E2F3A5 /* AppDelegate.swift */,
 				4EC4DD472346628F00E2F3A5 /* SceneDelegate.swift */,
-				4EC4DD492346628F00E2F3A5 /* ViewController.swift */,
-				4EC4DD4B2346628F00E2F3A5 /* Main.storyboard */,
 				4EC4DD4E2346629000E2F3A5 /* Assets.xcassets */,
 				4EC4DD502346629000E2F3A5 /* LaunchScreen.storyboard */,
 				4EC4DD532346629000E2F3A5 /* Info.plist */,
@@ -97,6 +120,14 @@
 				4EC4DD5E2346629000E2F3A5 /* Info.plist */,
 			);
 			path = PhotoJournalTests;
+			sourceTree = "<group>";
+		};
+		4ECBCD32234AA22C00947CCC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC4DD4A2346628F00E2F3A5 /* ViewController.swift in Sources */,
+				4EC4DD4A2346628F00E2F3A5 /* mainViewController.swift in Sources */,
 				4EC4DD462346628F00E2F3A5 /* AppDelegate.swift in Sources */,
 				4EC4DD482346628F00E2F3A5 /* SceneDelegate.swift in Sources */,
+				4E1AC4422348677D00E15956 /* Protocols.swift in Sources */,
+				4E1AC43E2347F42D00E15956 /* SettingsViewController.swift in Sources */,
+				4E1AC4402347F44900E15956 /* JournalViewController.swift in Sources */,
+				4EF355A6234A80B800300E3C /* mainCollectionViewCell.swift in Sources */,
+				4ECBCD31234AA21F00947CCC /* PersistenceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
