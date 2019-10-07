@@ -13,3 +13,7 @@ protocol SettingsDelegate: AnyObject {
     func darkModeOn()
     func darkModeOff()
 }
+
+protocol JournalDelegate: AnyObject {
+    func actionSheet(tag: Int)
+}

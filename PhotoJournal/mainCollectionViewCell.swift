@@ -12,5 +12,7 @@ class mainCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var mainImage: UIImageView!
     
+    @IBOutlet weak var JournalName: UILabel!
     
+    @IBOutlet weak var DateJournalAdded: UILabel!
 }

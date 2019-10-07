@@ -18,6 +18,8 @@
 		4EC4DD522346629000E2F3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC4DD502346629000E2F3A5 /* LaunchScreen.storyboard */; };
 		4EC4DD5D2346629000E2F3A5 /* PhotoJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4DD5C2346629000E2F3A5 /* PhotoJournalTests.swift */; };
 		4ECBCD31234AA21F00947CCC /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */; };
+		4ECBCD34234ACA4C00947CCC /* PhotoPersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBCD33234ACA4C00947CCC /* PhotoPersistenceHelper.swift */; };
+		4ECBCD36234BB9F800947CCC /* PhotoJournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECBCD35234BB9F800947CCC /* PhotoJournalModel.swift */; };
 		4EF355A6234A80B800300E3C /* mainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		4EC4DD5C2346629000E2F3A5 /* PhotoJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoJournalTests.swift; sourceTree = "<group>"; };
 		4EC4DD5E2346629000E2F3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
+		4ECBCD33234ACA4C00947CCC /* PhotoPersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPersistenceHelper.swift; sourceTree = "<group>"; };
+		4ECBCD35234BB9F800947CCC /* PhotoJournalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoJournalModel.swift; sourceTree = "<group>"; };
 		4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,7 @@
 				4E1AC4412348677D00E15956 /* Protocols.swift */,
 				4E1AC43C2347F40900E15956 /* Controllers */,
 				4ECBCD32234AA22C00947CCC /* Helpers */,
+				4ECBCD35234BB9F800947CCC /* PhotoJournalModel.swift */,
 				4EF355A5234A80B800300E3C /* mainCollectionViewCell.swift */,
 				4EC4DD452346628F00E2F3A5 /* AppDelegate.swift */,
 				4EC4DD472346628F00E2F3A5 /* SceneDelegate.swift */,
@@ -126,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				4ECBCD30234AA21F00947CCC /* PersistenceHelper.swift */,
+				4ECBCD33234ACA4C00947CCC /* PhotoPersistenceHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -231,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECBCD34234ACA4C00947CCC /* PhotoPersistenceHelper.swift in Sources */,
 				4EC4DD4A2346628F00E2F3A5 /* mainViewController.swift in Sources */,
 				4EC4DD462346628F00E2F3A5 /* AppDelegate.swift in Sources */,
 				4EC4DD482346628F00E2F3A5 /* SceneDelegate.swift in Sources */,
+				4ECBCD36234BB9F800947CCC /* PhotoJournalModel.swift in Sources */,
 				4E1AC4422348677D00E15956 /* Protocols.swift in Sources */,
 				4E1AC43E2347F42D00E15956 /* SettingsViewController.swift in Sources */,
 				4E1AC4402347F44900E15956 /* JournalViewController.swift in Sources */,
