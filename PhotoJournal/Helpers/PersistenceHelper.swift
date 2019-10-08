@@ -27,6 +27,7 @@ struct PersistenceHelper<T: Codable> {
       let serializedData = try PropertyListEncoder().encode(elements)
       try serializedData.write(to: url, options: Data.WritingOptions.atomic)
     }
+    
 
     init(fileName: String){
         self.fileName = fileName

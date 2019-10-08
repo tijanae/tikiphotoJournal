@@ -15,4 +15,13 @@ class mainCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var JournalName: UILabel!
     
     @IBOutlet weak var DateJournalAdded: UILabel!
+    
+    func configureCell(photo: PhotoJournalInfo) {
+       
+        JournalName.text = photo.caption
+        let path = getDocumentsDirectory().appendingPathComponent(photo.imageName)
+        mainImage.image = UIImage(contentsOfFile: path.path)
+    }
+    
+    
 }

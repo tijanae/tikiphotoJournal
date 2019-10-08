@@ -12,6 +12,7 @@ struct PhotoJournalInfo: Codable {
     
     let imageName: String
     let caption: String
+    let date: Date
     
 }
 

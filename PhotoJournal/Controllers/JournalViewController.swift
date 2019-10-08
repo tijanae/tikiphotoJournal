@@ -10,7 +10,7 @@ import UIKit
 
 class JournalViewController: UIViewController {
 
-    @IBOutlet weak var newJournalName: UITextField!
+    @IBOutlet weak var textView: UITextView!
     
     
     @IBOutlet weak var journalImage: UIImageView!
@@ -22,6 +22,17 @@ class JournalViewController: UIViewController {
     }
     
     @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
+      
+        caption = textView.text
+        
+        if imageName != ""  {
+//            && photoToBeEdited == nil
+            let newPhoto = PhotoJournalInfo(imageName: imageName, caption: caption, date: Date())
+                DispatchQueue.global(qos: .utility).async {
+                    try? PhotoJournalPersistenceManager.manager.savePhoto(photo: newPhoto)
+                }
+                self.dismiss(animated: true, completion: nil)
+        }
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
@@ -33,7 +44,10 @@ class JournalViewController: UIViewController {
         }
     }
     
+    var photoIndex = Int()
+    var photos = [PhotoJournalInfo]()
     var imageName = ""
+    var caption = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
